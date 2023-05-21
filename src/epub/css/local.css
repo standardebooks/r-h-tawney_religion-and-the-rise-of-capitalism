@@ -171,6 +171,8 @@ footer{
 /* For adding a left quote before the number */
 #chapter-2 ol li > p::before{
 	content: "“";
+	left: 1.5em;
+	position: absolute;
 }
 
 #chapter-2 ol > li:last-of-type > p::after{
