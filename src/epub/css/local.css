@@ -50,7 +50,6 @@ section[epub|type~="epigraph"] > *{
 	text-align: initial;
 }
 
-/*
 @supports(display: flex){
 	section[epub|type~="epigraph"]{
 		align-items: center;
@@ -65,11 +64,7 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	}
-}*/
+} 
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
