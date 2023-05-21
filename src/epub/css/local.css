@@ -64,7 +64,7 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-} 
+}
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
@@ -159,15 +159,22 @@ footer{
 	white-space: nowrap;
 }
 
-/* For adding a left quote before the number */
-#chapter-2 ol li{
-	position: relative;
+/* Italicize name of book with blockquote in title */
+#endnotes div[epub|type~="se:name.publication.book"]{
+	font-style: italic;
 }
 
-#chapter-2 li p span{
-	left: -25px;
-	position: absolute;
-	top: 0;
+#endnotes div[epub|type~="se:name.publication.book"] i{
+	font-style: normal;
+}
+
+/* For adding a left quote before the number */
+#chapter-2 ol li > p::before{
+	content: "“";
+}
+
+#chapter-2 ol > li:last-of-type > p::after{
+	content: "”";
 }
 
 /* Refrain in a dirge */
