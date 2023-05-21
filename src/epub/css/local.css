@@ -1,8 +1,6 @@
+@charset "utf-8";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
-
-blockquote[xml|lang]{
-	font-style: italic;
-}
+@namespace epub "http://www.idpf.org/2007/ops";
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
@@ -11,7 +9,6 @@ blockquote[xml|lang]{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -25,10 +22,8 @@ blockquote[xml|lang]{
 [epub|type~="epigraph"] cite i{
 	font-style: italic;
 }
-/* End all epigraphs */
 
 /* Epigraphs in section headers */
-article > header [epub|type~="epigraph"],
 section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
@@ -36,18 +31,11 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
-	article > header [epub|type~="epigraph"],
 	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
 }
-/* End epigraphs in section headers */
 
 /* Full-page epigraphs */
 section[epub|type~="epigraph"]{
@@ -62,6 +50,7 @@ section[epub|type~="epigraph"] > *{
 	text-align: initial;
 }
 
+/*
 @supports(display: flex){
 	section[epub|type~="epigraph"]{
 		align-items: center;
@@ -80,8 +69,7 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > * + *{
 		margin-top: 3em;
 	}
-}
-/* End full-page epigraphs */
+}*/
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
@@ -110,7 +98,6 @@ section[epub|type~="dedication"] > *{
 		margin: 0;
 	}
 }
-/* End centered dedications */
 
 /* Verse */
 [epub|type~="z3998:verse"] p{
@@ -137,16 +124,14 @@ p span.i1{
 	text-indent: -1em;
 }
 
-p span.refrain{
-	font-style: italic;
-	padding-left: 2em;
-}
-
 span.elision{
 	margin: .5em;
 	margin-left: 3em;
 }
-/* End verse */
+
+blockquote[xml|lang]{
+	font-style: italic;
+}
 
 footer{
 	margin-top: 1em;
@@ -158,6 +143,7 @@ footer{
 	font-variant: small-caps;
 }
 
+/* Replacing braces with a straight line */
 #endnotes blockquote{
 	display: table;
 	margin-left: auto;
@@ -178,6 +164,7 @@ footer{
 	white-space: nowrap;
 }
 
+/* For adding a left quote before the number */
 #chapter-2 ol li{
 	position: relative;
 }
@@ -186,4 +173,10 @@ footer{
 	left: -25px;
 	position: absolute;
 	top: 0;
+}
+
+/* Refrain in a dirge */
+p span.refrain{
+	font-style: italic;
+	padding-left: 2em;
 }
