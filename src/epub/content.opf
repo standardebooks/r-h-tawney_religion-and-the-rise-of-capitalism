@@ -62,7 +62,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>PG_URL</dc:source>
 		<dc:source>https://archive.org/details/religionriseofca0000unse_j5x7</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<meta property="se:production-notes">Some archaic spellings have been retained, in particular those in bibliographic references as well as those in quotations from older sources. </meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/r-h-tawney_religion-and-the-rise-of-capitalism</meta>
