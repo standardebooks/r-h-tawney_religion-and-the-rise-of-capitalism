@@ -163,16 +163,6 @@ footer{
 	white-space: nowrap;
 }
 
-/* Italicize name of book with blockquote in title */
-#endnotes div[epub|type~="se:name.publication.book"]{
-	display: inline;
-	font-style: italic;
-}
-
-#endnotes li ol{
-	list-style-type: lower-roman;
-}
-
 /* For adding a left quote before the number */
 #chapter-2 ol li > p::before{
 	content: "“";
