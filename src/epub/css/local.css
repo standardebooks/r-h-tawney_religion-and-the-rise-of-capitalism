@@ -165,11 +165,12 @@ footer{
 
 /* Italicize name of book with blockquote in title */
 #endnotes div[epub|type~="se:name.publication.book"]{
+	display: inline;
 	font-style: italic;
 }
 
-#endnotes div[epub|type~="se:name.publication.book"] i{
-	font-style: normal;
+#endnotes li ol{
+	list-style-type: lower-roman;
 }
 
 /* For adding a left quote before the number */
@@ -179,6 +180,7 @@ footer{
 	position: absolute;
 }
 
+/* To avoid lint complaint */
 #chapter-2 ol > li:last-of-type > p::after{
 	content: "”";
 }
