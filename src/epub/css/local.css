@@ -78,6 +78,10 @@ section[epub|type~="dedication"] > *{
 	max-width: 80%;
 }
 
+#dedication b:nth-of-type(2){
+	text-transform: capitalize;
+}
+
 @supports(display: flex){
 	section[epub|type~="dedication"]{
 		align-items: center;
