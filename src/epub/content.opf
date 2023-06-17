@@ -72,8 +72,8 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/R._H._Tawney</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/n50008661</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<meta property="se:role" refines="#author" scheme="marc:relators">aui</meta>
-		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="artist">Evelyn De Morgan</dc:contributor>
 		<meta property="file-as" refines="#artist">De Morgan, Evelyn</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Evelyn_De_Morgan</meta>
