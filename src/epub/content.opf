@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/r-h-tawney/religion-and-the-rise-of-capitalism</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-07-19T21:18:16Z</dc:date>
+		<meta property="dcterms:modified">2023-07-19T21:18:16Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -53,18 +53,18 @@
 		<meta id="collection-1" property="belongs-to-collection">Modern Library’s 100 Best Nonfiction</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<meta property="group-position" refines="#collection-1">66</meta>
-		<dc:description id="description">A tracing of the development of religious thought from the middle ages to the dawn of the industrial revolution.</dc:description>
+		<dc:description id="description">A tracing of the development of religious thought from the Middle Ages to the dawn of the Industrial Revolution.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;The development of religious thought, and specifically how it relates to business concerns is discussed in this classic work by &lt;a href="https://standardebooks.org/ebooks/r-h-tawney"&gt;R. H. Tawney&lt;/a&gt;. During the middle ages the church doctrine, notwithstanding numerous examples of inconsistencies and outright hypocrisy, viewed material wealth as a potential sign of greed, and therefore with heavy skepticism. This view permeated into discussions of economic affairs. In particular, gains coming from payment for production were viewed as acceptable, and gains from trade necessary, but gains coming from purely financial transactions (for example the charging of interest) were explicitly equated with greed, and therefore not ethically permissible and potentially punishable by excommunication.&lt;/p&gt;
-			&lt;p&gt;Tawney contends that this view began evolving around the time of the Reformation. He shows how the religious movements expounded by Luther and Calvin began by recognizing the legitimacy of charging interest in a limited set of circumstances. The reformed churches still initially maintained their right to comment on and criticize business practices. Charging of usurious amounts of interest, especially to people who could not afford it, was still considered a sin and something squarely within the ecclesiastical domain. With the rise of Puritanism in England however, this view gradually faded away. Puritanism encouraged a greater reliance on individualism in spiritualism, and was less interested in policing economic transactions. This in turn lead eventually to new system of values, “in which the traditional scheme of Christian virtues was almost exactly reversed,” helping to pave the way for the rise of financial capitalism and an ethical justification for extreme wealth inequality and perpetual material, instead of spiritual, growth.&lt;/p&gt;
-			&lt;p&gt;Even though Tawney ends his analysis there, at the dawn of the industrial revolution, it is not difficult to see the relevance to the modern world. Much of the language today surrounding wealth (and poverty) in particular hold an unmistakable, if not explicit, debt to Christian thought.&lt;/p&gt;
+			&lt;p&gt;The development of religious thought, and specifically how it relates to business concerns, is discussed in this classic work by &lt;a href="https://standardebooks.org/ebooks/r-h-tawney"&gt;R. H. Tawney&lt;/a&gt;. During the Middle Ages the church doctrine, notwithstanding numerous examples of inconsistencies and outright hypocrisy, viewed material wealth as a potential sign of greed, and therefore with heavy skepticism. This view permeated into discussions of economic affairs. In particular, gains coming from payment for production were viewed as acceptable, and gains from trade necessary, but gains coming from purely financial transactions (for example the charging of interest) were explicitly equated with greed, and therefore not ethically permissible and potentially punishable by excommunication.&lt;/p&gt;
+			&lt;p&gt;Tawney contends that this view began evolving around the time of the Reformation. He shows how the religious movements expounded by Luther and Calvin began by recognizing the legitimacy of charging interest in a limited set of circumstances. The reformed churches still initially maintained their right to comment on and criticize business practices. Charging of usurious amounts of interest, especially to people who could not afford it, was still considered a sin and something squarely within the ecclesiastical domain. With the rise of Puritanism in England, however, this view gradually faded away. Puritanism encouraged a greater reliance on individualism in spiritualism, and was less interested in policing economic transactions. This in turn lead eventually to new system of values, “in which the traditional scheme of Christian virtues was almost exactly reversed,” helping to pave the way for the rise of financial capitalism and an ethical justification for extreme wealth inequality and perpetual material, instead of spiritual, growth.&lt;/p&gt;
+			&lt;p&gt;Even though Tawney ends his analysis at the dawn of the Industrial Revolution, it isn’t difficult to see the relevance to the modern world. Much of the language today surrounding wealth (and poverty) in particular hold an unmistakable, if not explicit, debt to Christian thought.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/71223</dc:source>
 		<dc:source>https://archive.org/details/religionriseofca0000unse_j5x7</dc:source>
 		<meta property="se:production-notes">Some archaic spellings have been retained, in particular those in bibliographic references as well as those in quotations from older sources. </meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">90300</meta>
+		<meta property="se:reading-ease.flesch">44.88</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/r-h-tawney_religion-and-the-rise-of-capitalism</meta>
 		<dc:creator id="author">R. H. Tawney</dc:creator>
 		<meta property="file-as" refines="#author">Tawney, R. H.</meta>
@@ -92,6 +92,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
