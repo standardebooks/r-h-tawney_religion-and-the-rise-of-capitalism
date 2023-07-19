@@ -98,6 +98,11 @@ section[epub|type~="dedication"] > *{
 	}
 }
 
+
+section[epub|type~="dedication"] p{
+	font-variant: small-caps;
+}
+
 /* Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
