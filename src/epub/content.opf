@@ -27,14 +27,14 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Religion and the Rise of Capitalism</dc:title>
-		<dc:title id="subtitle">A Historical Study</dc:title>
-		<dc:title id="fulltitle">Religion and the Rise of Capitalism: A Historical Study</dc:title>
 		<meta property="file-as" refines="#title">Religion and the Rise of Capitalism</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Historical Study</dc:title>
 		<meta property="file-as" refines="#subtitle">Historical Study, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Religion and the Rise of Capitalism: A Historical Study</dc:title>
 		<meta property="file-as" refines="#fulltitle">Religion and the Rise of Capitalism</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
-		<meta property="title-type" refines="#title">main</meta>
-		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:subject id="subject-1">Religious thought--History</dc:subject>
 		<dc:subject id="subject-2">Economics--Religious aspects--Christianity--History</dc:subject>
 		<dc:subject id="subject-3">Capitalism</dc:subject>
