@@ -6,10 +6,6 @@
 			<reason>Eastward Ho! is the name of a book.</reason>
 		</ignore>
 		<ignore>
-			<code>t-057</code>
-			<reason>List starting with lower case roman numerals, but list begins inside a paragraph.</reason>
-		</ignore>
-		<ignore>
 			<code>y-005</code>
 			<reason>Eastward Ho! is the name of a book.</reason>
 		</ignore>
