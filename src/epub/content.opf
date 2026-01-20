@@ -64,7 +64,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/71223</dc:source>
 		<dc:source>https://archive.org/details/religionriseofca0000unse_j5x7</dc:source>
 		<meta property="se:production-notes">Some archaic spellings have been retained, in particular those in bibliographic references as well as those in quotations from older sources. </meta>
-		<meta property="se:word-count">90300</meta>
+		<meta property="se:word-count">90125</meta>
 		<meta property="se:reading-ease.flesch">44.98</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/r-h-tawney_religion-and-the-rise-of-capitalism</meta>
 		<dc:creator id="author">R. H. Tawney</dc:creator>
