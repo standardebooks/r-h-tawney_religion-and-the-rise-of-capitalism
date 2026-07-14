@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Religion and the Rise of Capitalism: A Historical Study</dc:title>
 		<meta property="file-as" refines="#fulltitle">Religion and the Rise of Capitalism</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Religious thought--History</dc:subject>
 		<dc:subject id="subject-2">Economics--Religious aspects--Christianity--History</dc:subject>
 		<dc:subject id="subject-3">Capitalism</dc:subject>
