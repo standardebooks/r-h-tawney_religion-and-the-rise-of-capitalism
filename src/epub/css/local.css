@@ -50,7 +50,7 @@ section[epub|type~="epigraph"] > *{
 	text-align: initial;
 }
 
-@supports(display: flex){
+@supports(display: flex) and (min-height: calc(98vh - 3em)){
 	section[epub|type~="epigraph"]{
 		align-items: center;
 		box-sizing: border-box;
@@ -82,7 +82,7 @@ section[epub|type~="dedication"] > *{
 	text-transform: uppercase;
 }
 
-@supports(display: flex){
+@supports(display: flex) and (min-height: calc(98vh - 3em)){
 	section[epub|type~="dedication"]{
 		align-items: center;
 		box-sizing: border-box;
